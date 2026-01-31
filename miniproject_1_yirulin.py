@@ -68,7 +68,7 @@ def download_glove_embeddings_gdrive(model_type):
     gdown.download(id=embeddings_id, output=embeddings_temp, quiet=False)
 
 
-# @st.cache_data()
+@st.cache_data()
 def load_glove_embeddings_gdrive(model_type):
     word_index_temp = "word_index_dict_" + str(model_type) + "_temp.pkl"
     embeddings_temp = "embeddings_" + str(model_type) + "_temp.npy"
