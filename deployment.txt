@@ -1,1 +1,1 @@
-Paste your Streamlit Cloud URL here after deployment (e.g., https://search-based-retrieval-demo-haqsvwwrtz36k5abeqnwpu.streamlit.app/)
+https://search-based-retrieval-demo-haqsvwwrtz36k5abeqnwpu.streamlit.app/
